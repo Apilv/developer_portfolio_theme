@@ -1,7 +1,9 @@
 <?php 
 function portfolioTheme_register_styles(){
 
-    wp_enqueue_style('portfolioTheme-style', get_template_directory_uri() . "/style.css", array(), '1.0', 'all');
+        $version = wp_get_theme()->get( 'Version' );
+
+    wp_enqueue_style('portfolioTheme-style', get_template_directory_uri() . "/style.css", array(), $version, 'all');
     wp_enqueue_style('portfolioTheme-bootstrap', "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css", array(), '4.4.1', 'all');
     wp_enqueue_style('portfolioTheme-fontawesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css', array(), '5.13.0', 'all');
     wp_enqueue_style('portfolioTheme-aos', 'https://unpkg.com/aos@2.3.1/dist/aos.css', array(), '2.3.1', 'all');
