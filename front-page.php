@@ -1,44 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Developer Portfolio Theme</title>
-    <?php wp_head(); ?>
-</head>
-<body>
-    <div class="cover-bg" id="home">
-        <header id="header">
-            <nav class="navbar navbar-expand-lg navbar-black fixed-top">
-                <div class="container">
-                <a class="navbar-brand" href="#">
-                    <img src="wp-content/themes/developer_portfolio_theme/assets/img/whiteLogo.png" class="top-logo" alt="">
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fas fa-bars"></i>
-                    </button>
-                <div class="collapse navbar-collapse"   id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto text-center">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#home">Home
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about-me">About Me</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#my-skills">My Skills</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact Me</a>
-                        </li>
-                    </ul>
-                </div>
-                </div>
-            </nav>
-        </header>
-    </div>
+<?php get_header() ?>
     <div class="hero text-center">
         <h1 class="hero-name">
             Hello, my name is <span class="myName">Andrius</span>
@@ -146,12 +106,4 @@
         </div>
         </div>
     </main>
-    <footer>
-        <p class="mb-0 pt-2 text-white text-center"> &copy; 2020 Andrius Pilvelis</p>
-    </footer>
-    <?php wp_footer() ?>
-   <script>
-  AOS.init();
-</script>
-</body>
-</html>
+<?php get_footer()?>
