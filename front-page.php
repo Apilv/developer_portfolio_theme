@@ -12,7 +12,7 @@
             <nav class="navbar navbar-expand-lg navbar-black fixed-top">
                 <div class="container">
                 <a class="navbar-brand" href="#">
-                    <img src="./img/whiteLogo.png" class="top-logo" alt="">
+                    <img src="wp-content/themes/developer_portfolio_theme/assets/img/whiteLogo.png" class="top-logo" alt="">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -68,7 +68,7 @@
                         </div>
                     </div>
                     <div class="col-8 col-md-8 col-lg-5 pb-md-5 mb-md-5">
-                        <img src="./img/profile_photo.jpg" class="img-fluid rounded" alt="Profile picture">
+                        <img src="wp-content/themes/developer_portfolio_theme/assets/img/profile_photo.jpg" class="img-fluid rounded" alt="Profile picture">
                     </div>
                 </div>
             </div>
