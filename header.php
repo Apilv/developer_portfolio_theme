@@ -11,9 +11,8 @@
         <header id="header">
             <nav class="navbar navbar-expand-lg navbar-black fixed-top">
                 <div class="container">
-                <a class="navbar-brand" href="#">
-                    <img src="wp-content/themes/developer_portfolio_theme/assets/img/whiteLogo.png" class="top-logo" alt="">
-                </a>
+                <div class="top-logo" href="#">
+                </div>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fas fa-bars"></i>
