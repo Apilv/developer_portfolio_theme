@@ -23,7 +23,7 @@
                             skills to improve and advance my existing knowledge.<br> Feel free to take a look at my resume and Github.
                         </p>
                         <div class="media-links text-center align-middle pt-2 pb-4">
-                            <button type="submit" class="btn btn-success resume">Resume<a href="#" class="ml-3"><i class="fas fa-file-download"></i></a></button>
+                            <a href="http://127.0.0.1/wp/wp-content/uploads/2020/10/Resume_AndriusPilvelis.pdf"  class="btn btn-success resume" target="_blank">Resume<i class="fas fa-file-download ml-3"></i></a>
                             <a href="https://github.com/Apilv" target="_blank"><i class="fab fa-github align-middle pl-3"></i></a>
                         </div>
                     </div>
