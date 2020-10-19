@@ -1,6 +1,6 @@
 /*
 Theme Name: Developer Portfolio Theme
-Version: 1.0
+Version: 1.1
 Description: Wordpress developer theme, designed to serve as web resume
 Author: Andrius Pilvelis
 Tags: portfolio theme, custom animations, responsive
@@ -230,6 +230,7 @@ a.nav-link:hover {
 
 .fa-envelope {
     font-size: 30px;
+    color: rgb(223, 24, 24);
 }
 
 .fa-arrow-right {
@@ -238,10 +239,12 @@ a.nav-link:hover {
 
 .fa-phone-alt {
     font-size: 30px;
+    color: green;
 }
 
 .fa-linkedin {
     font-size: 30px;
+    color: blue;
 }
 
 .contact-info>a {
@@ -261,6 +264,12 @@ footer {
 }
 
 /*-------------- @MEDIA --------------*/
+
+@media(max-width: 784px) {
+    p:first-of-type {
+        margin-left: 0 !important;
+    }
+}
 
 @media(max-width: 600px) {
     .hero-name {

@@ -40,6 +40,20 @@ $(window).on('resize', function () {
         }
 });
 
+
+$(window).on('resize', function () {
+    
+    let windowWidth = $(window).width();
+    
+    if (windowWidth < 768){
+        $(".contact-info").removeClass("text-center");  
+        }else {
+        
+        $(".contact-info").addClass("text-center");
+        
+    }
+});
+
 // Colapse Nav menu on scroll
 
 $(window).on('scroll', function () {

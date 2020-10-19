@@ -71,7 +71,7 @@
         <div class="container">
             <h2 class="text-center p-4">Contact Me</h2>
             <div class="row d-felx justify-content-around">
-                <div class="contact-info pb-3 col-7 text-center">
+                <div class="contact-info pb-3 col-12 col-md-6 text-center">
                     <p class=" mb-0 ml-3 ml-md-5"><i class="fas fa-envelope mr-2 align-middle"></i><i
                             class="fas fa-arrow-right mr-3 align-middle"></i>Andrius.pilv@gmail.com</p>
                     <p class="mt-3 mb-3"><i class="fas fa-phone-alt mr-2 align-middle"></i><i
