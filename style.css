@@ -281,7 +281,12 @@ footer {
 
 }
 
-@media(max-width: 410px) {
+@media(max-width: 415px) {
+
+    .hero {
+        padding-top: 200px;
+    }
+
     .hero-name {
         font-size: 25px;
     }
@@ -292,6 +297,11 @@ footer {
 
     .hero>h3 {
         font-size: 20px;
+    }
+
+    .fa-angle-double-down {
+        padding-top: 70px;
+        font-size:50px;
     }
 
     .myResume {
@@ -331,10 +341,6 @@ footer {
     .fa-angle-double-down {
         padding-top: 50px;
         font-size: 40px;
-    }
-
-    .hero {
-        padding-top: 200px;
     }
 
     .about-me {
