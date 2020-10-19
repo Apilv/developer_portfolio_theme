@@ -28,7 +28,7 @@
                         </div>
                     </div>
                     <div class="col-8 col-md-8 col-lg-5 pb-md-5 mb-md-5">
-                        <img src="wp-content/themes/developer_portfolio_theme/assets/img/profile_photo.jpg" class="img-fluid rounded" alt="Profile picture">
+                        <img src="<?php echo THEME_IMG_PATH; ?>/profile_photo.jpg" class="img-fluid rounded" alt="Profile picture">
                     </div>
                 </div>
             </div>
