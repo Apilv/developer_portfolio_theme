@@ -10,14 +10,18 @@ html {
     height: 100%;
 }
 
+*:focus {
+    outline: 0 !important;
+}
+
 /*-------------- HEADER --------------*/
 
 #header>.navbar {
     z-index: 100;
+    padding: 2px 12px 5px;
 }
 
 .change {
-    height: 60px;
     background-color: rgba(0, 0, 0, 0.898);
 }
 
@@ -26,10 +30,6 @@ html {
 }
 
 .top-logo {
-    background-image: url("assets/img/whiteLogo.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
     height: 50px;
     width: 70px;
 }
@@ -282,6 +282,9 @@ footer {
 }
 
 @media(max-width: 415px) {
+    .fa-bars {
+        font-size: 30px;
+    }
 
     .hero {
         padding-top: 200px;

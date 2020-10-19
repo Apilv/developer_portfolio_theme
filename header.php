@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Wordpress Portfolio Themplate for web developers">
+    <link rel="icon" type="image/png" href="<?php echo THEME_IMG_PATH; ?>/whiteLogo.png">
     <?php wp_head(); ?>
 </head>
 <body>
