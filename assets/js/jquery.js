@@ -41,8 +41,7 @@ $(window).on('resize', function () {
 });
 
 
-$(window).on('resize', function () {
-    
+
     let windowWidth = $(window).width();
     
     if (windowWidth < 768){
@@ -52,7 +51,7 @@ $(window).on('resize', function () {
         $(".contact-info").addClass("text-center");
         
     }
-});
+
 
 // Colapse Nav menu on scroll
 
