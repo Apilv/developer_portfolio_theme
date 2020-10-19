@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Wordpress Portfolio Themplate for web developers">
+    <link rel="icon" type="image/png" href="<?php echo THEME_IMG_PATH; ?>/whiteLogo.png">
     <?php wp_head(); ?>
 </head>
 <body>
@@ -11,8 +12,8 @@
         <header id="header">
             <nav class="navbar navbar-expand-lg navbar-black fixed-top">
                 <div class="container">
-                <div class="top-logo" href="#">
-                </div>
+            <a class="navbar-brand" href="#home">
+                    <img src="<?php echo THEME_IMG_PATH; ?>/whiteLogo.png" class="top-logo" alt="Logo"> </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fas fa-bars"></i>

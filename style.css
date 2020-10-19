@@ -1,6 +1,6 @@
 /*
 Theme Name: Developer Portfolio Theme
-Version: 1.0
+Version: 1.1
 Description: Wordpress developer theme, designed to serve as web resume
 Author: Andrius Pilvelis
 Tags: portfolio theme, custom animations, responsive
@@ -10,14 +10,18 @@ html {
     height: 100%;
 }
 
+*:focus {
+    outline: 0 !important;
+}
+
 /*-------------- HEADER --------------*/
 
 #header>.navbar {
     z-index: 100;
+    padding: 2px 12px 5px;
 }
 
 .change {
-    height: 60px;
     background-color: rgba(0, 0, 0, 0.898);
 }
 
@@ -26,10 +30,6 @@ html {
 }
 
 .top-logo {
-    background-image: url("assets/img/whiteLogo.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
     height: 50px;
     width: 70px;
 }
@@ -230,6 +230,7 @@ a.nav-link:hover {
 
 .fa-envelope {
     font-size: 30px;
+    color: rgb(223, 24, 24);
 }
 
 .fa-arrow-right {
@@ -238,10 +239,12 @@ a.nav-link:hover {
 
 .fa-phone-alt {
     font-size: 30px;
+    color: green;
 }
 
 .fa-linkedin {
     font-size: 30px;
+    color: blue;
 }
 
 .contact-info>a {
@@ -262,6 +265,12 @@ footer {
 
 /*-------------- @MEDIA --------------*/
 
+@media(max-width: 784px) {
+    p:first-of-type {
+        margin-left: 0 !important;
+    }
+}
+
 @media(max-width: 600px) {
     .hero-name {
         font-size: 30px;
@@ -281,7 +290,15 @@ footer {
 
 }
 
-@media(max-width: 410px) {
+@media(max-width: 415px) {
+    .fa-bars {
+        font-size: 30px;
+    }
+
+    .hero {
+        padding-top: 220px;
+    }
+
     .hero-name {
         font-size: 25px;
     }
@@ -292,6 +309,11 @@ footer {
 
     .hero>h3 {
         font-size: 20px;
+    }
+
+    .fa-angle-double-down {
+        padding-top: 70px;
+        font-size:50px;
     }
 
     .myResume {
@@ -331,10 +353,6 @@ footer {
     .fa-angle-double-down {
         padding-top: 50px;
         font-size: 40px;
-    }
-
-    .hero {
-        padding-top: 200px;
     }
 
     .about-me {
