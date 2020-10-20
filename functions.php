@@ -45,4 +45,18 @@ function portfolioTheme_register_scripts()
 
 add_action('wp_enqueue_scripts', 'portfolioTheme_register_scripts');
 
+function page_widgets_init() {
+
+	register_sidebar( array(
+		'name'          => 'Home contact form',
+		'id'            => 'home_contact_1',
+		'before_widget' => '',
+		'after_widget'  => '',
+		'before_title'  => '',
+		'after_title'   => '',
+	) );
+
+}
+add_action( 'widgets_init', 'page_widgets_init' );
+
 ?>
