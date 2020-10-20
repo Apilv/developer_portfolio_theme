@@ -80,28 +80,7 @@
                         target="_blank"><i class="fab fa-linkedin mr-2"></i><i class="fas fa-arrow-right mr-3"></i>Andrius
                         Pilvelis</a>
                 </div>
-                <form class="col-12 col-md-5 pb-5 pt-5">
-                    <div class="form-group">
-                        <label for="email-address">Email address</label>
-                        <input type="email" class="form-control" id="email-address" aria-describedby="emailHelp"
-                            placeholder="* example@gmail.com" required>
-                    </div>
-                    <div class="form-group">
-                    <label for="senders-name">Name</label>
-                    <input type="text" class="form-control" id="senders-name" placeholder="* John Doe" required>
-                </div>
-                    <div class="form-group">
-                        <label for="email-subject">Subject</label>
-                        <input type="text" class="form-control" id="email-subject" placeholder="* Employment opportunity" required>
-                </div>
-                    <div class="form-group">
-                        <label for="email-body" style="display:none;"></label>
-                        <textarea class="form-control" id="email-body" rows="4" placeholder="* Text" required></textarea>
-                    </div>
-                    <div class="text-center">
-                    <button type="submit" class="btn btn-success">Submit</button>
-                    </div>
-                </form>
+                <?php dynamic_sidebar('home_contact_1') ?>
             </div>
         </div>
         </div>
