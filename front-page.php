@@ -45,22 +45,22 @@
                     </div>
                     <div class="vertical-line divider d-none d-md-block"></div>
                     <div class="row col-8 col-md-5 skills-icons text-center d-felx justify-content-around">
-                        <div class="shadow col-5 col-sm-5  col-md-5 col-lg-5 col-xl-3" data-aos="zoom-in-right">
+                        <div class="shadow col-4 col-sm-3 col-md-5 col-lg-5 col-xl-3" data-aos="zoom-in-right" data-aos-duration="1000">
                             <i class="fab fa-html5 align-middle"></i>
                         </div>
-                        <div class="shadow col-5 col-sm-5  col-md-5 col-lg-5 col-xl-3" data-aos="zoom-in-bottom">
+                        <div class="shadow col-4 col-sm-3  col-md-5 col-lg-5 col-xl-3" data-aos="zoom-in-bottom" data-aos-duration="1000">
                             <i class="fab fa-css3-alt align-middle"></i>
                         </div>
-                        <div class="shadow col-5 col-sm-5  col-md-5 col-lg-5 col-xl-3 text-warning" data-aos="zoom-in-left">
+                        <div class="shadow col-4 col-sm-3  col-md-5 col-lg-5 col-xl-3 text-warning" data-aos="zoom-in-left" data-aos-duration="1000">
                             <i class="fab fa-js-square align-middle"></i>
                         </div>
-                        <div class="shadow col-5 col-sm-5  col-md-5 col-lg-5 col-xl-3" data-aos="zoom-in-right">
+                        <div class="shadow col-4 col-sm-3  col-md-5 col-lg-5 col-xl-3" data-aos="zoom-in-right" data-aos-duration="1000">
                             <i class="fab fa-php align-middle"></i>
                         </div>
-                        <div class="shadow col-5 col-sm-5  col-md-5 col-lg-5 col-xl-3" data-aos="zoom-in-top">
+                        <div class="shadow col-4 col-sm-3  col-md-5 col-lg-5 col-xl-3" data-aos="zoom-in-top" data-aos-duration="1000">
                             <i class="fas fa-database align-middle"></i>
                         </div>
-                        <div class="shadow col-5 col-sm-5  col-md-5 col-lg-5 col-xl-3" data-aos="zoom-in-left">
+                        <div class="shadow col-4 col-sm-3  col-md-5 col-lg-5 col-xl-3" data-aos="zoom-in-left" data-aos-duration="1000">
                             <i class="fab fa-wordpress-simple align-middle"></i>
                         </div>
                     </div>
