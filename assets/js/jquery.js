@@ -4,7 +4,7 @@ $(window).on('scroll', function () {
     
     let scroll = $(window).scrollTop();
     
-if (scroll >= 650) {
+if (scroll >= 300) {
     $(".navbar").addClass("change");
 } else {
     $(".navbar").removeClass("change");
