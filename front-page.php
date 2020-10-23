@@ -14,7 +14,7 @@
                 <div class="row d-felx justify-content-around">
                     <div class="col-12 col-md-12 col-lg-5 about-text">
                         <h2 class="text-center block pb-3">About Me</h2>
-                        <p>For the past 13 years, I have worked mainly in the hospitality and social care, but time came to do something
+                        <p>For the past 13 years, I have worked mainly in the hospitality and social care industries, but time came to do something
                             with my
                             life, so I decided to follow my passion for computing and retrain myself as a web developer.<br> On the 15th of
                             September, I
@@ -38,9 +38,10 @@
                 <div class="row d-felx justify-content-around">
                     <div class="skills-text col-12 col-md-6">
                         <h2 class="text-center pb-4">My Skills</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa perferendis vitae harum exercitationem.
-                            Ullam laudantium facilis labore veniam quae fugit perspiciatis sit deleniti, ipsa amet, ratione
-                            voluptates nesciunt dolores consequuntur.Provident quidem assumenda corporis, dignissimos, itaque nihil
+                        <p>To represent my current skillset I created from scratch this simple WordPress theme.<br> For the front end, I used: <strong>HTML, CSS, Bootstrap, Js, Jquery</strong>.
+                            <br>For the back end:<strong> PHP, MySql</strong>.
+                            <br>It's work in progress, as I continue to grow my skills I will continue to update and improve this template.<br>
+                            (Code on GitHub: <a href="https://github.com/Apilv/developer_portfolio_theme" target="_blank"> developer_portfolio_theme</a>).
                         </p>
                     </div>
                     <div class="vertical-line divider d-none d-md-block"></div>
